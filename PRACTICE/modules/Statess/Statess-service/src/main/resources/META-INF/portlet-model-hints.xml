@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+
+<model-hints>
+	<model name="com.liferay.training.zain.states.model.Statess">
+		<field name="uuid" type="String" />
+		<field name="id" type="int" />
+		<field name="name" type="String" />
+		<field name="country_id" type="int" />
+	</model>
+</model-hints>

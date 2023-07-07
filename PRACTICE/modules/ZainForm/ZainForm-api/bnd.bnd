@@ -1,0 +1,10 @@
+Bundle-Name: ZainForm-api
+Bundle-SymbolicName: com.liferay.zain.practice.api
+Bundle-Version: 1.0.0
+Export-Package:\
+	com.liferay.zain.practice.exception,\
+	com.liferay.zain.practice.model,\
+	com.liferay.zain.practice.service,\
+	com.liferay.zain.practice.service.persistence
+-check: EXPORTS
+-includeresource: META-INF/service.xml=../ZainForm-service/service.xml

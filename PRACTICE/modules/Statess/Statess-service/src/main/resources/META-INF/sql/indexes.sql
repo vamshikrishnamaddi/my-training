@@ -1,0 +1,1 @@
+create index IX_DC3670F0 on Zain_Statess (uuid_[$COLUMN_LENGTH:75$]);

@@ -1,0 +1,4 @@
+Bundle-Name: ZainForm-web
+Bundle-SymbolicName: com.liferay.zain.practice.web
+Bundle-Version: 1.0.0
+Export-Package: com.liferay.zain.practice.web.constants

@@ -1,0 +1,12 @@
+dependencies {
+	compile project(":modules:ZainForm:ZainForm-api")
+	compile project(":modules:City:City-api")
+	compile project(":modules:Statess:Statess-api")
+	compileOnly group: "com.liferay.portal", name: "release.dxp.api"
+}
+
+buildService {
+	apiDir = "../ZainForm-api/src/main/java"
+}
+
+group = "com.liferay.zain.practice"

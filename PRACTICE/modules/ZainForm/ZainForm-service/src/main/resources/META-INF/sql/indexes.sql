@@ -1,0 +1,1 @@
+create index IX_F76C35AC on Zain_normal (governorate[$COLUMN_LENGTH:75$]);

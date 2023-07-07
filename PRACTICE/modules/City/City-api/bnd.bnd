@@ -1,0 +1,10 @@
+Bundle-Name: City-api
+Bundle-SymbolicName: com.liferay.zain.api
+Bundle-Version: 1.0.0
+Export-Package:\
+	com.liferay.zain.exception,\
+	com.liferay.zain.model,\
+	com.liferay.zain.service,\
+	com.liferay.zain.service.persistence
+-check: EXPORTS
+-includeresource: META-INF/service.xml=../City-service/service.xml
